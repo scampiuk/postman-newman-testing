@@ -42,12 +42,10 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:8081/",
-					"protocol": "http",
+					"raw": "{{host}}/",
 					"host": [
-						"localhost"
+						"{{host}}"
 					],
-					"port": "8081",
 					"path": [
 						""
 					]
@@ -92,12 +90,10 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:8081/foo?bar=toastsd",
-					"protocol": "http",
+					"raw": "{{host}}/foo?bar=toastsd",
 					"host": [
-						"localhost"
+						"{{host}}"
 					],
-					"port": "8081",
 					"path": [
 						"foo"
 					],
@@ -155,12 +151,10 @@
 					"raw": "{\n\t\"bar\": \"beans\"\n}"
 				},
 				"url": {
-					"raw": "http://localhost:8081/foo",
-					"protocol": "http",
+					"raw": "{{host}}/foo",
 					"host": [
-						"localhost"
+						"{{host}}"
 					],
-					"port": "8081",
 					"path": [
 						"foo"
 					]
